@@ -4,12 +4,21 @@
 ~~~~
 apt-get install -y motion ffmpeg v4l-utils
 apt-get install -y python-pip python-dev python-setuptools curl libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev
-apt-get install -y vim htop
+apt-get install -y vim 
+~~~~
+
+### install pillow and pycurl from binary instead of using pip
+~~~~
 apt-get install -y python-pillow python-pycurl
+~~~~
+
+### upgrade pip (if needed)
+~~~~
 pip install --upgrade pip 
 ~~~~
 
-### patch pip
+
+### patch pip (if needed)
 ~~~~
 # -*- coding: utf-8 -*-
 import re
