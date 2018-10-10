@@ -36,7 +36,7 @@ mkdir -p /var/lib/motioneye
 cp /usr/local/share/motioneye/extra/motioneye.systemd-unit-local /etc/systemd/system/motioneye.service
 ~~~~
 
-###start the service
+### start the service
 ~~~~
 systemctl daemon-reload
 systemctl enable motioneye
