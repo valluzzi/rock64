@@ -1,6 +1,6 @@
-# rock64
+# rock64-motioneye
 
-### Instructions to install motioneye on rock64 - debian
+### Instructions to install motioneye on rock64 - (DietPi) debian 
 ~~~~
 apt-get install -y motion ffmpeg v4l-utils
 apt-get install -y python-pip python-dev python-setuptools curl libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev
