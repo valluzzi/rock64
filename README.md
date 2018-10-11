@@ -50,3 +50,9 @@ systemctl daemon-reload
 systemctl enable motioneye
 systemctl start motioneye
 ~~~~
+
+### check the browser at 192.168.1.XXX:8765
+~~~~
+Optionally you can change the port of the service 
+/etc/motioneye/motioneye.conf
+~~~~
